@@ -24,6 +24,28 @@ public class Messages {
     private final static ResourceBundleHolder holder = ResourceBundleHolder.get(Messages.class);
 
     /**
+     * Key {@code PowergenCompileBuilder.DisplayName}: {@code Build a
+     * PowerBuilder target using PowerGen}.
+     * 
+     * @return
+     *     {@code Build a PowerBuilder target using PowerGen}
+     */
+    public static String PowergenCompileBuilder_DisplayName() {
+        return holder.format("PowergenCompileBuilder.DisplayName");
+    }
+
+    /**
+     * Key {@code PowergenCompileBuilder.DisplayName}: {@code Build a
+     * PowerBuilder target using PowerGen}.
+     * 
+     * @return
+     *     {@code Build a PowerBuilder target using PowerGen}
+     */
+    public static Localizable _PowergenCompileBuilder_DisplayName() {
+        return new Localizable(holder, "PowergenCompileBuilder.DisplayName");
+    }
+
+    /**
      * Key {@code PowergenCompileBuilder.WarningNoteDescription}: {@code
      * PowergenCompile warning}.
      * 
@@ -65,28 +87,6 @@ public class Messages {
      */
     public static Localizable _PowergenCompileBuilder_ErrorNoteDescription() {
         return new Localizable(holder, "PowergenCompileBuilder.ErrorNoteDescription");
-    }
-
-    /**
-     * Key {@code PowergenCompileBuilder.DisplayName}: {@code Build a
-     * PowerBuilder target using PowerGen}.
-     * 
-     * @return
-     *     {@code Build a PowerBuilder target using PowerGen}
-     */
-    public static String PowergenCompileBuilder_DisplayName() {
-        return holder.format("PowergenCompileBuilder.DisplayName");
-    }
-
-    /**
-     * Key {@code PowergenCompileBuilder.DisplayName}: {@code Build a
-     * PowerBuilder target using PowerGen}.
-     * 
-     * @return
-     *     {@code Build a PowerBuilder target using PowerGen}
-     */
-    public static Localizable _PowergenCompileBuilder_DisplayName() {
-        return new Localizable(holder, "PowergenCompileBuilder.DisplayName");
     }
 
 }

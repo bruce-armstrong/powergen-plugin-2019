@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: hudson.plugins.powergencompile.PowergenCompileBuilderTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.354 sec - in hudson.plugins.powergencompile.PowergenCompileBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.551 sec - in hudson.plugins.powergencompile.PowergenCompileBuilderTest

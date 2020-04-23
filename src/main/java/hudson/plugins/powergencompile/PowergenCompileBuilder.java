@@ -68,7 +68,7 @@ public class PowergenCompileBuilder extends Builder {
 	 * @param execName
 	 * 			  Name of the PowerGen executable
 	 * @param powergenCompileName
-	 *            The PowerGen logical name
+	 * 			  Name of the PowerGen install	
 	 * @param powergenProjectFile
 	 *            The name/location of the PowerGen project file for the project
 	 * @param continueOnBuildFailure
@@ -79,22 +79,30 @@ public class PowergenCompileBuilder extends Builder {
 	@DataBoundConstructor
 	public PowergenCompileBuilder(String execName, String powergenCompileName, String powergenProjectFile, boolean continueOnBuildFailure, boolean unstableIfWarnings) {
 		this.execName = execName;
-		this.powergenCompileName = powergenCompileName;
+		this.powergenCompileName = powergenCompileName ;
 		this.powergenProjectFile = powergenProjectFile;
 		this.continueOnBuildFailure = continueOnBuildFailure;
 		this.unstableIfWarnings = unstableIfWarnings;
 	}
 
+	public String getExecName() {
+		return execName;
+	}
+	
 	public String getPowergenCompileName() {
 		return powergenCompileName;
 	}
-
+	
 	public String getPowergenProjectFile() {
 		return powergenProjectFile;
 	}
 
 	public boolean getContinueOnBuildFailure() {
 		return continueOnBuildFailure;
+	}
+	
+	public boolean getUnstableIfWarnings() {
+		return unstableIfWarnings;
 	}
 
 	public PowergenCompileInstallation getPowergenCompile() {
@@ -107,10 +115,6 @@ public class PowergenCompileBuilder extends Builder {
 			return descriptor.getInstallations()[0];
 		}
 		return null;
-	}
-
-	public boolean getUnstableIfWarnings() {
-		return unstableIfWarnings;
 	}
 
 	@Override
