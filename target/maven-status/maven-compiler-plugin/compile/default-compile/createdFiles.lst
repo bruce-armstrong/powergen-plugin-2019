@@ -1,0 +1,15 @@
+hudson\plugins\powergencompile\PowergenCompileErrorNote.class
+META-INF\annotations\org.jenkinsci.Symbol
+hudson\plugins\powergencompile\PowergenCompileInstallation.stapler
+hudson\plugins\powergencompile\PowergenCompileWarningNote.class
+hudson\plugins\powergencompile\PowergenCompileWarningNote$DescriptorImpl.class
+hudson\plugins\powergencompile\PowergenCompileInstallation.class
+hudson\plugins\powergencompile\Messages.class
+hudson\plugins\powergencompile\PowergenCompileErrorNote$DescriptorImpl.class
+hudson\plugins\powergencompile\PowergenCompileInstallation$DescriptorImpl.class
+hudson\plugins\powergencompile\PowergenCompileConsoleParser.class
+hudson\plugins\powergencompile\PowergenCompileBuilder.class
+hudson\plugins\powergencompile\PowergenCompileBuilder.stapler
+hudson\plugins\powergencompile\PowergenCompileBuilder$DescriptorImpl.class
+hudson\plugins\powergencompile\PowergenCompilerConsoleAnnotator.class
+META-INF\annotations\hudson.Extension

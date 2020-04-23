@@ -1,0 +1,4 @@
+hudson.plugins.powergencompile.PowergenCompileBuilder$DescriptorImpl
+hudson.plugins.powergencompile.PowergenCompileErrorNote$DescriptorImpl
+hudson.plugins.powergencompile.PowergenCompileInstallation$DescriptorImpl
+hudson.plugins.powergencompile.PowergenCompileWarningNote$DescriptorImpl

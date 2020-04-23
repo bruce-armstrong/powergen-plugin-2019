@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: powergencompile-v10
+Long-Name: Jenkins PowerGen Plugin
+Plugin-Version: 0.1
+Hudson-Version: 1.625
+Jenkins-Version: 1.625
+Plugin-Dependencies: structs:1.3
+Plugin-Developers: Bruce Armstrong:bruce:me@brucearmstrong.org
+Libraries: D:\powergen-plugin-2019\src\main\resources,D:\powergen-plug
+ in-2019\target\classes
+Resource-Path: D:\powergen-plugin-2019\src\main\webapp
+

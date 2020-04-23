@@ -1,0 +1,45 @@
+Apr 22, 2020 5:54:13 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @2125ms
+Picking up existing exploded jenkins.war at D:\powergen-plugin-2019\target\jenkins-for-test
+Apr 22, 2020 5:54:16 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Apr 22, 2020 5:54:16 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Apr 22, 2020 5:54:16 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Apr 22, 2020 5:54:16 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@51827393{/,file:/D:/powergen-plugin-2019/target/jenkins-for-test/,AVAILABLE}{D:\powergen-plugin-2019\target\jenkins-for-test}
+Apr 22, 2020 5:54:16 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@3d36dff4{HTTP/1.1}{localhost:61809}
+Apr 22, 2020 5:54:16 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @5159ms
+Apr 22, 2020 5:54:16 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Apr 22, 2020 5:54:46 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Apr 22, 2020 5:54:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Apr 22, 2020 5:54:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Apr 22, 2020 5:54:47 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Apr 22, 2020 5:54:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Apr 22, 2020 5:54:53 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 54535
+Apr 22, 2020 5:54:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Apr 22, 2020 5:54:53 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Apr 22, 2020 5:54:53 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@38320e34{/,null,AVAILABLE}
+Apr 22, 2020 5:54:53 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@9d7ccfe{HTTP/1.1}{0.0.0.0:54537}
+Apr 22, 2020 5:54:53 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @42380ms
+Apr 22, 2020 5:54:57 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@3d36dff4{HTTP/1.1}{localhost:0}
+Apr 22, 2020 5:54:57 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@51827393{/,file:/D:/powergen-plugin-2019/target/jenkins-for-test/,UNAVAILABLE}{D:\powergen-plugin-2019\target\jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
